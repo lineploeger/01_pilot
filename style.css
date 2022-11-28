@@ -5,8 +5,7 @@
 
 body {
   background-color: #f23d6d;
-  background-color: antiquewhite;
-  padding: 10px;
+  padding: 5px;
 }
 
 main {
@@ -30,12 +29,12 @@ img {
   object-fit: cover;
 }
 
-.baggrund {
-  grid-column: span 3;
+.baggrund,
+.billede2 {
+  grid-column: span 1;
 }
 
-.billede3,
-.billede2 {
+.billede3 {
   grid-column: span 2;
 }
 .billede5 {
@@ -50,4 +49,22 @@ iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+  grid-column: span 2;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  grid-column: span 2;
+}
+
+.knap {
+  font-size: 30px;
+  padding: 10px 15px 10px 15px;
+  color: #d4e2e2;
+  border-style: initial;
+  background-color: #638791;
+  text-transform: uppercase;
+  text-decoration: none;
 }
