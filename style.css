@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f23d6d;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+main {
+  max-width: 1000px;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0px 0px 0px 0px;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid_1-1-1 img {
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.baggrund {
+  grid-column: span 3;
+}
+
+.billede3,
+.billede2 {
+  grid-column: span 2;
+}
+.billede5 {
+  grid-column: span 1;
+}
+
+.billede1 {
+  grid-column: span 3;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
