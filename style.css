@@ -4,8 +4,9 @@
 }
 
 body {
-  background-color: #f23d6d;
+  background-color: black;
   padding: 5px;
+  margin: 5%;
 }
 
 main {
@@ -15,13 +16,14 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  padding: 0px 0px 0px 0px;
+  padding: 0px;
 }
 
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .grid_1-1-1 img {
@@ -29,9 +31,41 @@ img {
   object-fit: cover;
 }
 
-.baggrund,
 .billede2 {
   grid-column: span 1;
+}
+
+.figure1 {
+  grid-column: span 1;
+  object-fit: cover;
+  font-size: max(2vw, 8px);
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.figure {
+  grid-column: span 2;
+  object-fit: cover;
+  font-size: max(4vw, 8px);
+  margin: 0;
+  display: grid;
+  place-items: end;
+}
+
+figure img {
+  height: 100%;
+}
+
+figcaption {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  display: flex;
+  left: 7%;
+  width: 28%;
 }
 
 .billede3 {
@@ -59,12 +93,17 @@ video {
   grid-column: span 2;
 }
 
-.knap {
+.knap,
+.knap2 {
   font-size: 30px;
-  padding: 10px 15px 10px 15px;
-  color: #d4e2e2;
-  border-style: initial;
-  background-color: #638791;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px 20px 20px 20px;
+  color: white;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  background-color: #f23d6d;
   text-transform: uppercase;
   text-decoration: none;
+  flex: auto;
 }
