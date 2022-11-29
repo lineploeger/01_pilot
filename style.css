@@ -98,7 +98,6 @@ video {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 40px;
-  padding: 20px 20px 20px 20px;
   color: white;
   font-family: Myriad Pro;
   font-weight: bold;
@@ -106,4 +105,15 @@ video {
   text-transform: uppercase;
   text-decoration: none;
   flex: auto;
+}
+
+.knap {
+  padding: 20px 20px 20px 20px;
+}
+.knap2 {
+  padding: 20px 40px 20px 40px;
+}
+
+.layoutdiagram {
+  padding: 40px 40px 0px 5px;
 }
